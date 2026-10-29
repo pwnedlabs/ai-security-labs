@@ -10,9 +10,10 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 
 | Lab | Type | What you practice |
 |---|---|---|
-| [Gandalf](https://gandalf.lakera.ai) from Lakera | Hosted, free | Direct prompt injection against progressively stronger defenses. A popular first taste of AI hacking, and still a good one. |
+| [Gandalf: Agent Breaker](https://play.lakera.ai/agent-breaker) from Lakera | Hosted, free | Prompt attacks against a set of mock GenAI apps and agents, from system prompt extraction to indirect injection through documents, web pages and MCP server descriptions. |
 | [AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) from Microsoft | Self-hosted, free | The challenges Microsoft uses in its own AI red teaming trainings, including credential extraction and multi-turn attacks. |
 | [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent) from Reversec | Self-hosted, free | Prompt injection against a tool-using agent, where the injection turns into actions. |
+| [Damn Vulnerable MCP Server](https://github.com/harishsg993010/damn-vulnerable-MCP-server) | Self-hosted, free | Ten challenges against deliberately vulnerable MCP servers, including tool poisoning, rug pulls, tool shadowing and token theft. |
 | [Web LLM attacks](https://portswigger.net/web-security/llm-attacks) from the PortSwigger Web Security Academy | Hosted, free | LLM features inside web applications, including excessive agency, insecure output handling and indirect prompt injection. |
 | [Prompt Airlines](https://promptairlines.com) from Wiz | Hosted, free | A CTF where you talk a customer service bot into handing over a free (fictional) airline ticket. |
 | [Pwned Labs AI security labs](https://pwnedlabs.io/explore) (ours) | Hosted | AI and agentic attack scenarios in live environments, next to the cloud labs they often depend on. |
@@ -26,6 +27,8 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 ## References
 
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org). The shared vocabulary for LLM risks such as prompt injection, sensitive information disclosure and excessive agency.
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/). The companion list for agents, covering risks such as goal hijacking, tool misuse and rogue agents.
+- [MITRE ATLAS](https://atlas.mitre.org). ATT&CK-style tactics, techniques and case studies for attacks on AI systems, handy for mapping findings.
 - NIST AI 600-1, the generative AI profile of the NIST AI Risk Management Framework, for governance and policy work.
 
 ## Courses and certifications
