@@ -44,7 +44,7 @@ If you are on the blue team, our [PromptStorm](https://pwnedlabs.io/cyber-ranges
 ## A path through the list
 
 1. Learn how LLM applications are put together: system prompts, retrieval, tools and agents, and every place untrusted input gets in.
-2. Practice direct prompt injection on Gandalf, then move on to indirect injection through documents and web content.
+2. Practice direct prompt injection on Lakera's Agent Breaker, then move on to indirect injection through documents and web content.
 3. Attack an agent that has tools, using Damn Vulnerable LLM Agent or the Microsoft playground, and watch an injection become an action.
 4. Automate what you have learned with garak, PyRIT or promptfoo.
 5. Map your findings to the OWASP Top 10 for LLM Applications and design the controls and detections that would have caught them.
