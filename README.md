@@ -11,7 +11,7 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 | Lab | Type | What you practice |
 |---|---|---|
 | [Gandalf](https://gandalf.lakera.ai) from Lakera | Hosted, free | Direct prompt injection against progressively stronger defenses. A popular first taste of AI hacking, and still a good one. |
-| [AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) from Microsoft | Self-hosted, free | The challenges Microsoft uses in its own AI red teaming trainings, including credential extraction and multi-turn attacks. |
+| [AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) from Microsoft | Self-hosted, free | The challenges from Microsoft's AI Red Teaming in Practice course, first taught at Black Hat USA 2024, including credential exfiltration and multi-turn attacks. |
 | [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent) from Reversec | Self-hosted, free | Prompt injection against a tool-using agent, where the injection turns into actions. |
 | [Web LLM attacks](https://portswigger.net/web-security/llm-attacks) from the PortSwigger Web Security Academy | Hosted, free | LLM features inside web applications, including excessive agency, insecure output handling and indirect prompt injection. |
 | [Prompt Airlines](https://promptairlines.com) from Wiz | Hosted, free | A CTF where you talk a customer service bot into handing over a free (fictional) airline ticket. |
@@ -26,16 +26,16 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 ## References
 
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org). The shared vocabulary for LLM risks such as prompt injection, sensitive information disclosure and excessive agency.
-- NIST AI 600-1, the generative AI profile of the NIST AI Risk Management Framework, for governance and policy work.
+- [NIST AI 600-1](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence), the generative AI profile of the NIST AI Risk Management Framework, for governance and policy work.
 
 ## Courses and certifications
 
 | Course | Format | Focus |
 |---|---|---|
 | [AI Systems Attack and Defense Bootcamp (AISRTP)](https://pwnedlabs.io/bootcamps/aisrtp-bootcamp) from Pwned Labs (ours) | On-demand, hands-on exam | Direct and indirect prompt injection, RAG poisoning, tool and agent abuse, and MCP and CI/CD agent attack paths, with the defenses for each. No prior AI security experience or Python required. |
-| OffSec AI-300 (OSAI) | Advanced | Offensive testing of LLM applications, agents and RAG, validated by the OSAI exam. Assumes strong penetration testing skills. |
+| [AI-300: Advanced AI Red Teaming (OSAI)](https://www.offsec.com/courses/ai-300/) from OffSec | Self-paced, 24-hour hands-on exam | Offensive testing of AI-integrated systems, including LLMs and multi-agent setups. Advanced level, aimed at experienced security practitioners. |
 | [SANS SEC411: AI Security Principles and Practices](https://www.sans.org/cyber-security-courses/ai-security-principles-practices) | Self-paced with labs | GenAI and LLM defense for practitioners. |
-| DeepLearning.AI Red Teaming LLM Applications | Short course, free | A gentle introduction to manual and automated red teaming of chatbots. |
+| [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications) from DeepLearning.AI | Short course, free | A gentle introduction to manual and automated red teaming of chatbots. |
 
 Check each provider for current dates and pricing.
 
@@ -53,3 +53,7 @@ If you are on the blue team, our [PromptStorm](https://pwnedlabs.io/cyber-ranges
 ## Contributing
 
 Open a pull request with the resource, a one-line description and whether it is free. We only list resources that are live and hands-on, and if a link breaks we will fix it or take it out.
+
+## License
+
+This list is licensed under [CC BY 4.0](LICENSE). You can share and adapt it, including commercially, as long as you credit Pwned Labs.
