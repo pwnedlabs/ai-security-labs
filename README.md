@@ -11,7 +11,7 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 | Lab | Type | What you practice |
 |---|---|---|
 | [Gandalf: Agent Breaker](https://play.lakera.ai/agent-breaker) from Lakera | Hosted, free | Prompt attacks against a set of mock GenAI apps and agents, from system prompt extraction to indirect injection through documents, web pages and MCP server descriptions. |
-| [AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) from Microsoft | Self-hosted, free | The challenges Microsoft uses in its own AI red teaming trainings, including credential extraction and multi-turn attacks. |
+| [AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) from Microsoft | Self-hosted, free | The challenges from Microsoft's AI Red Teaming in Practice course, first taught at Black Hat USA 2024, including credential exfiltration and multi-turn attacks. |
 | [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent) from Reversec | Self-hosted, free | Prompt injection against a tool-using agent, where the injection turns into actions. |
 | [Damn Vulnerable MCP Server](https://github.com/harishsg993010/damn-vulnerable-MCP-server) | Self-hosted, free | Ten challenges against deliberately vulnerable MCP servers, including tool poisoning, rug pulls, tool shadowing and token theft. |
 | [Web LLM attacks](https://portswigger.net/web-security/llm-attacks) from the PortSwigger Web Security Academy | Hosted, free | LLM features inside web applications, including excessive agency, insecure output handling and indirect prompt injection. |
@@ -29,16 +29,16 @@ Maintained by [Pwned Labs](https://pwnedlabs.io). Our own training is listed alo
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org). The shared vocabulary for LLM risks such as prompt injection, sensitive information disclosure and excessive agency.
 - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/). The companion list for agents, covering risks such as goal hijacking, tool misuse and rogue agents.
 - [MITRE ATLAS](https://atlas.mitre.org). ATT&CK-style tactics, techniques and case studies for attacks on AI systems, handy for mapping findings.
-- NIST AI 600-1, the generative AI profile of the NIST AI Risk Management Framework, for governance and policy work.
+- [NIST AI 600-1](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence), the generative AI profile of the NIST AI Risk Management Framework, for governance and policy work.
 
 ## Courses and certifications
 
 | Course | Format | Focus |
 |---|---|---|
 | [AI Systems Attack and Defense Bootcamp (AISRTP)](https://pwnedlabs.io/bootcamps/aisrtp-bootcamp) from Pwned Labs (ours) | On-demand, hands-on exam | Direct and indirect prompt injection, RAG poisoning, tool and agent abuse, and MCP and CI/CD agent attack paths, with the defenses for each. No prior AI security experience or Python required. |
-| OffSec AI-300 (OSAI) | Advanced | Offensive testing of LLM applications, agents and RAG, validated by the OSAI exam. Assumes strong penetration testing skills. |
+| [AI-300: Advanced AI Red Teaming (OSAI)](https://www.offsec.com/courses/ai-300/) from OffSec | Self-paced, 24-hour hands-on exam | Offensive testing of AI-integrated systems, including LLMs and multi-agent setups. Advanced level, aimed at experienced security practitioners. |
 | [SANS SEC411: AI Security Principles and Practices](https://www.sans.org/cyber-security-courses/ai-security-principles-practices) | Self-paced with labs | GenAI and LLM defense for practitioners. |
-| DeepLearning.AI Red Teaming LLM Applications | Short course, free | A gentle introduction to manual and automated red teaming of chatbots. |
+| [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications) from DeepLearning.AI | Short course, free | A gentle introduction to manual and automated red teaming of chatbots. |
 
 Check each provider for current dates and pricing.
 
@@ -47,7 +47,7 @@ If you are on the blue team, our [PromptStorm](https://pwnedlabs.io/cyber-ranges
 ## A path through the list
 
 1. Learn how LLM applications are put together: system prompts, retrieval, tools and agents, and every place untrusted input gets in.
-2. Practice direct prompt injection on Gandalf, then move on to indirect injection through documents and web content.
+2. Practice direct prompt injection on Lakera's Agent Breaker, then move on to indirect injection through documents and web content.
 3. Attack an agent that has tools, using Damn Vulnerable LLM Agent or the Microsoft playground, and watch an injection become an action.
 4. Automate what you have learned with garak, PyRIT or promptfoo.
 5. Map your findings to the OWASP Top 10 for LLM Applications and design the controls and detections that would have caught them.
@@ -56,3 +56,7 @@ If you are on the blue team, our [PromptStorm](https://pwnedlabs.io/cyber-ranges
 ## Contributing
 
 Open a pull request with the resource, a one-line description and whether it is free. We only list resources that are live and hands-on, and if a link breaks we will fix it or take it out.
+
+## License
+
+This list is licensed under [CC BY 4.0](LICENSE). You can share and adapt it, including commercially, as long as you credit Pwned Labs.
